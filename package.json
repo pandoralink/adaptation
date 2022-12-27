@@ -1,0 +1,14 @@
+{
+  "name": "adaptation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "poplink",
+  "license": "MIT",
+  "dependencies": {
+    "px2rem": "^0.5.0"
+  }
+}
