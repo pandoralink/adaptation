@@ -1,0 +1,30 @@
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  display: block;
+  height: 0.825243rem;
+  width: 5.339806rem;
+  border: 0.024272rem solid #bbbbbb;
+  border-radius: 0.38835rem;
+  font-size: 0.339806rem;
+  line-height: 0.485437rem;
+  padding-left: 0.849515rem;
+}
+
+.search-content {
+  position: relative;
+  color: #b3b3b3;
+}
+
+.left-icon {
+  position: absolute;
+  left: 0.218447rem;
+  top: 50%;
+  filter: drop-shadow(24.271845rem 0 0 #8e8e93);
+  transform: translate(-24.271845rem, -50%);
+  width: 0.412621rem;
+  height: 0.412621rem;
+}
