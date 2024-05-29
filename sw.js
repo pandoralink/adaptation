@@ -2,7 +2,7 @@ const addResourcesToCache = async (resources) => {
   const cache = await caches.open('v1');
   await cache.addAll(resources);
 };
-// t
+// t2
 
 const putInCache = async (request, response) => {
   const cache = await caches.open('v1');
