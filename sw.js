@@ -2,7 +2,6 @@ const addResourcesToCache = async (resources) => {
   const cache = await caches.open('v1');
   await cache.addAll(resources);
 };
-// t2
 
 const putInCache = async (request, response) => {
   const cache = await caches.open('v1');
@@ -68,12 +67,14 @@ self.addEventListener('install', (event) => {
     addResourcesToCache([
       './',
       './index.html',
-      './style.css',
-      './app.js',
-      './image-list.js',
-      './star-wars-logo.jpg',
-      './gallery/bountyHunters.jpg',
-      './gallery/snowTroopers.jpg',
+      './assets/hooks-Cd12EAL8.js',
+      './assets/index-BFGtPOjN.js',
+      './assets/Playground-D_6o-Mqq.js',
+      './assets/RecordTagDetail-XbSs9_3F.js',
+      './assets/hooks-DffhucOW.css',
+      './assets/index-D8wilQDg.css',
+      './assets/Playground-DnKHqK0y.css',
+      './assets/RecordTagDetail-Bhyw4NVz.css',
     ])
   );
 });
@@ -83,7 +84,7 @@ self.addEventListener('fetch', (event) => {
     cacheFirst({
       request: event.request,
       preloadResponsePromise: event.preloadResponse,
-      fallbackUrl: './gallery/snowTroopers.jpg',
+      fallbackUrl: './assets/hooks-Cd12EAL8.js',
     })
   );
 });
