@@ -67,14 +67,14 @@ self.addEventListener('install', (event) => {
     addResourcesToCache([
       './',
       './index.html',
-      './assets/hooks-Cd12EAL8.js',
-      './assets/index-BFGtPOjN.js',
-      './assets/Playground-D_6o-Mqq.js',
-      './assets/RecordTagDetail-XbSs9_3F.js',
-      './assets/hooks-DffhucOW.css',
-      './assets/index-D8wilQDg.css',
-      './assets/Playground-DnKHqK0y.css',
-      './assets/RecordTagDetail-Bhyw4NVz.css',
+      './dist/assets/hooks-Cd12EAL8.js',
+      './dist/assets/index-BFGtPOjN.js',
+      './dist/assets/Playground-D_6o-Mqq.js',
+      './dist/assets/RecordTagDetail-XbSs9_3F.js',
+      './dist/assets/hooks-DffhucOW.css',
+      './dist/assets/index-D8wilQDg.css',
+      './dist/assets/Playground-DnKHqK0y.css',
+      './dist/assets/RecordTagDetail-Bhyw4NVz.css',
     ])
   );
 });
@@ -84,7 +84,7 @@ self.addEventListener('fetch', (event) => {
     cacheFirst({
       request: event.request,
       preloadResponsePromise: event.preloadResponse,
-      fallbackUrl: './assets/hooks-Cd12EAL8.js',
+      fallbackUrl: './dist/assets/hooks-Cd12EAL8.js',
     })
   );
 });
