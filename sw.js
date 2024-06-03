@@ -67,14 +67,14 @@ self.addEventListener('install', (event) => {
     addResourcesToCache([
       './',
       './index.html',
-      './main/dist/assets/hooks-Cd12EAL8.js',
-      './main/dist/assets/index-BFGtPOjN.js',
-      './main/dist/assets/Playground-D_6o-Mqq.js',
-      './main/dist/assets/RecordTagDetail-XbSs9_3F.js',
-      './main/dist/assets/hooks-DffhucOW.css',
-      './main/dist/assets/index-D8wilQDg.css',
-      './main/dist/assets/Playground-DnKHqK0y.css',
-      './main/dist/assets/RecordTagDetail-Bhyw4NVz.css',
+      './assets/hooks-Cd12EAL8.js',
+      './assets/index-BFGtPOjN.js',
+      './assets/Playground-D_6o-Mqq.js',
+      './assets/RecordTagDetail-XbSs9_3F.js',
+      './assets/hooks-DffhucOW.css',
+      './assets/index-D8wilQDg.css',
+      './assets/Playground-DnKHqK0y.css',
+      './assets/RecordTagDetail-Bhyw4NVz.css',
     ])
   );
 });
@@ -84,7 +84,7 @@ self.addEventListener('fetch', (event) => {
     cacheFirst({
       request: event.request,
       preloadResponsePromise: event.preloadResponse,
-      fallbackUrl: './main/dist/assets/hooks-Cd12EAL8.js',
+      fallbackUrl: './assets/hooks-Cd12EAL8.js',
     })
   );
 });
