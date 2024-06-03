@@ -67,14 +67,14 @@ self.addEventListener('install', (event) => {
     addResourcesToCache([
       './',
       './index.html',
-      './dist/assets/hooks-Cd12EAL8.js',
-      './dist/assets/index-BFGtPOjN.js',
-      './dist/assets/Playground-D_6o-Mqq.js',
-      './dist/assets/RecordTagDetail-XbSs9_3F.js',
-      './dist/assets/hooks-DffhucOW.css',
-      './dist/assets/index-D8wilQDg.css',
-      './dist/assets/Playground-DnKHqK0y.css',
-      './dist/assets/RecordTagDetail-Bhyw4NVz.css',
+      './main/dist/assets/hooks-Cd12EAL8.js',
+      './main/dist/assets/index-BFGtPOjN.js',
+      './main/dist/assets/Playground-D_6o-Mqq.js',
+      './main/dist/assets/RecordTagDetail-XbSs9_3F.js',
+      './main/dist/assets/hooks-DffhucOW.css',
+      './main/dist/assets/index-D8wilQDg.css',
+      './main/dist/assets/Playground-DnKHqK0y.css',
+      './main/dist/assets/RecordTagDetail-Bhyw4NVz.css',
     ])
   );
 });
