@@ -84,7 +84,7 @@ self.addEventListener('fetch', (event) => {
     cacheFirst({
       request: event.request,
       preloadResponsePromise: event.preloadResponse,
-      fallbackUrl: './dist/assets/hooks-Cd12EAL8.js',
+      fallbackUrl: './main/dist/assets/hooks-Cd12EAL8.js',
     })
   );
 });
