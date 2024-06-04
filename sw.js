@@ -67,10 +67,10 @@ self.addEventListener('install', (event) => {
     addResourcesToCache([
       './',
       './index.html',
-      './assets/hooks-CgeQt9R6.js',
-      './assets/index-DK4OzJUw.js',
-      './assets/Playground-yhLwbZXc.js',
-      './assets/RecordTagDetail-JkKunyR5.js',
+      './assets/hooks-CQinRcph.js',
+      './assets/index-CnuiFtNf.js',
+      './assets/Playground-BaYMC_Zv.js',
+      './assets/RecordTagDetail-BzAf6yEs.js',
       './assets/hooks-DffhucOW.css',
       './assets/index-D8wilQDg.css',
       './assets/Playground-DnKHqK0y.css',
@@ -84,7 +84,7 @@ self.addEventListener('fetch', (event) => {
     cacheFirst({
       request: event.request,
       preloadResponsePromise: event.preloadResponse,
-      fallbackUrl: './assets/hooks-CgeQt9R6.js',
+      fallbackUrl: './assets/hooks-CQinRcph.js',
     })
   );
 });
