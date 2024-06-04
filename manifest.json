@@ -1,7 +1,7 @@
 {
   "name": "record",
   "short_name": "record",
-  "start_url": "/",
+  "start_url": "/adaptation",
   "display": "standalone",
   "background_color": "#ffffff",
   "description": "record",
